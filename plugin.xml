@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="iapptrade.keyboard"
+    version="1.0.0">
+    <name>IonDigitKeyboard</name>
+    <description>Cordova Custom Keyboard Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,keyboard</keywords>
+	<engines>
+		<engine name="cordova" version=">=3.2.0" />
+	</engines>
+    <js-module src="dist/ion-digit-keyboard.min.js.js" name="iondigitkeyboard">
+    	<clobbers target="window.IonDigitKeyboard" />
+    </js-module>
+</plugin>
